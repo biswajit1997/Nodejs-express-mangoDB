@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDb = async () => {
   try {
-    const connectionString = "mongodb+srv://biswajitpradhan120:" + encodeURIComponent("Pradhan@123") + "@biswajitcluster.uv0ljpz.mongodb.net/mycontacts-backend?retryWrites=true&w=majority";
+    const connectionString = "XXXXXX";
 
     const connection = await mongoose.connect(connectionString);
 
